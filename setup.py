@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    install_requires=['numpy', 'paddlepaddle-gpu', 'opencv-python'],
+    install_requires=['numpy', 'paddlepaddle-gpu', 'opencv-python', 'scikit-image'],
     scripts=[],
     entry_points={}
 )

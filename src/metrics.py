@@ -17,4 +17,4 @@ def psnr(im1, im2, n=8):
 
 def ssim(im1, im2, multichannel=False, **kwargs):
     from skimage.measure import compare_ssim
-    return compare_ssim(im1, im2, multichannel=multichannel, **kwargs);
+    return compare_ssim(im1, im2, multichannel=multichannel, **kwargs)
